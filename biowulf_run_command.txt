@@ -1,0 +1,1 @@
+sbatch --cpus-per-task=6 --partition=gpu --mem=60g --gres=gpu:v100x:1,lscratch:100 alphafold_script.sh
